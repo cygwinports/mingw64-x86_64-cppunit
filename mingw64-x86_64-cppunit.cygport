@@ -2,13 +2,13 @@ CROSS_HOST="x86_64-w64-mingw32"
 inherit cross
 
 NAME="mingw64-x86_64-cppunit"
-VERSION=1.12.1
-RELEASE=2
+VERSION=1.13.2
+RELEASE=1
 CATEGORY="Devel"
 SUMMARY="C++ unit testing framework for Win64 toolchain"
 DESCRIPTION="CppUnit is a C++ unit testing framework."
-HOMEPAGE="http://cppunit.sourceforge.net/"
-SRC_URI="mirror://sourceforge/cppunit/cppunit-${VERSION}.tar.gz"
+HOMEPAGE="https://www.freedesktop.org/wiki/Software/cppunit/"
+SRC_URI="http://dev-www.libreoffice.org/src/cppunit-${VERSION}.tar.gz"
 SRC_DIR="cppunit-${VERSION}"
 
 CYGCONF_ARGS="--enable-static --disable-doxygen"
